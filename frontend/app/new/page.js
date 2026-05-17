@@ -97,7 +97,7 @@ export default function NewJob() {
                 id="location" 
                 name="location"
                 className="form-control" 
-                placeholder="e.g. Glasgow" 
+                placeholder="Enter Location" 
                 required
                 value={formData.location}
                 onChange={handleChange}
@@ -130,7 +130,7 @@ export default function NewJob() {
                 id="contactName" 
                 name="contactName"
                 className="form-control" 
-                placeholder="John Doe" 
+                placeholder="Enter Name" 
                 required
                 value={formData.contactName}
                 onChange={handleChange}
@@ -143,7 +143,7 @@ export default function NewJob() {
                 id="contactEmail" 
                 name="contactEmail"
                 className="form-control" 
-                placeholder="john@example.com" 
+                placeholder="Enter Email" 
                 required
                 value={formData.contactEmail}
                 onChange={handleChange}
