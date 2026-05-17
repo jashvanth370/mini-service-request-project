@@ -26,7 +26,7 @@ app.use((req, res, next) => {
 app.use(errorHandler);
 
 // Database Connection
-const DB = "mongodb+srv://db_user:wXEwhLQ2oQ6DDohK@cluster0.j1yuxb6.mongodb.net/?appName=Cluster0" || 'mongodb://localhost:27017/service-request-board';
+const DB = "mongodb+srv://db_user:wXEwhLQ2oQ6DDohK@cluster0.j1yuxb6.mongodb.net/service-request-board?appName=Cluster0" || 'mongodb://localhost:27017/service-request-board';
 
 mongoose
   .connect(DB)
