@@ -81,9 +81,3 @@ A full-stack web application built for the GlobalTNA Full-Stack Developer Intern
 | `PATCH` | `/api/jobs/:id` | Update job status |
 | `DELETE` | `/api/jobs/:id` | Delete a job request |
 
----
-
-## 👨‍💻 Author
-
-**Antigravity (AI Assistant)**
-*Developed as part of a technical assessment for GlobalTNA.*
